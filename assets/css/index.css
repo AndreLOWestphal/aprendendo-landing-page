@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Raleway-bold';
-    src: url(../assets/fonts/Raleway-ExtraBold.ttf)}
+    src: url(../fonts/Raleway-ExtraBold.ttf)}
 @font-face {
     font-family: 'Raleway-sans-serif';
-    src: url(../assets/fonts/Raleway-Regular.ttf);
+    src: url(../fonts/Raleway-Regular.ttf);
 }
 
 body{
@@ -18,7 +18,7 @@ header{
     
 }
 .banner{
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(../assets/images/banner.png);
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(../images/banner.png)
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
@@ -106,7 +106,7 @@ header h2{
 #transform-world{
     height: 560px;
     background-size: cover;
-    background-image: url(../assets/images/woman-code.png);
+    background-image: url(../images/woman-code.png);
     background-attachment: fixed;
     border-top: 1px solid #33A8DB80;
     border-bottom: 1px solid #33A8DB80;
